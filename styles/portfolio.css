@@ -11,47 +11,93 @@
 }
 
 .color-orange {
-    color: #FD6E0A;}
-
-.btn{ 
-    background-color: #FD6E0A;
-    color: #fff;
-    border: none;
-    padding: 18px 35px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
+  color: #fd6e0a;
 }
 
+.btn {
+  background-color: #fd6e0a;
+  color: #fff;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
 /* main style */
 
 header {
-  background-color: #fff8f3;
+  background: url(../images/developer.png), url(../images/header_bg.png),
+    #fff8f3;
+  background-repeat: no-repeat;
+  background-position: 38px 23px, right bottom;
   padding-top: 50px;
 }
 
 nav {
-    width: 71%;
-    max-width: 1140px;
-    /* border: 1px solid black; */
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo h2 {
-    font-size: 45px;
-    font-weight: 800;
+  font-size: 45px;
+  font-weight: 800;
 }
 nav .menu {
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    gap: 51px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 51px;
 }
 nav .menu a {
-    font-size: 20px;
-    color: #474747;
-    text-decoration: none;
+  font-size: 20px;
+  color: #474747;
+  text-decoration: none;
+}
+
+#banner {
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-content {
+  max-width: 585px;
+}
+#banner .banner-content h2 {
+  width: 177px;
+  height: 61px;
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+  /* width: 499px; */
+  height: 116px;
+  font-size: 85px;
+  font-weight: 800;
+  color: #474747;
+  margin-bottom: 20px;
+}
+#banner .banner-content p {
+  width: 585px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.banner-image img {
+  width: 584px;
+  vertical-align: middle;
 }
